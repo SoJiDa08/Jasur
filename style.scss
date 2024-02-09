@@ -1,0 +1,228 @@
+.wrapper{
+    background-image: url("../img/trees-bg.png");
+    height: 100vh;
+    .tugri{
+        gap: 5%;
+        font-weight: bold;
+        position: fixed;
+        margin-left: 30%;
+    }
+    .fff{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .knopka{
+        border: 1px solid blue;
+        color: blue;
+    }
+}
+
+.wrapper_1{
+    height: 50vh;
+    .rasm{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60%;
+        margin-top: 5%;
+        
+    }    
+}
+.wrapper_2{
+    height: 70vh;
+    background-image: url(../img/story-bg.png);
+    .svg1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+}
+.wrapper_3{
+    background-image: url(../img/team-bg.png);
+    height: 100vh;
+    .btn_1{
+        margin-left: 30%;
+        }
+        .quti_1{
+            gap: 2%;
+        }
+        .knopka{
+            display: flex;
+            justify-content: center;
+            margin-left: 45%;
+            border-radius: 15px solid blue;
+            background-color: blue;
+            color: white;
+        }
+    }
+ .wrapper_4{
+    height: 100vh;
+    .knopk{
+        background-color: white;
+        color: blue;
+        border: 1px solid blue;
+        display: flex;
+        justify-content: end;
+        margin-left: 45%;
+        margin-top: 35%;
+
+    }
+    }
+    .wrapper_5{
+        height: 55vh;
+        // background-image: url(../img/trees-bg.png);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        .ppp{
+            margin-left: 30%;
+            
+        }
+        .d-flex{
+            justify-content: center;
+            align-items: center;
+            .boxes{
+                margin-left:30px ;
+                width:50px;
+                height: 50px;
+                border: 50%;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                }
+                
+            }
+            .boxcha{
+                width: 75px;
+                height: 75px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        
+    }
+
+
+
+
+    
+#contact{
+    width: 100%;
+    height: 100vh;
+    .container{
+        .row1{
+            .wrapper{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                &-title{
+                    width: 100%;
+                    height: 25vh;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content:center;
+                    margin-right: 30%;
+                }
+                .wrap-text{
+                    width: 100%;
+                    height: 25vh;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content:center;
+                    margin-right: 52%;
+
+                }
+                &-btn{
+                    padding: 10px 30px;
+                    border: 2px solid $bluecolor;
+                    color: $bluecolor;
+                    font-size: 17px;
+                    font-weight: bold;
+                    border-radius: 2px ;
+                    margin-top: 3%;
+                    margin-right: 55%;
+                }
+            }
+        }
+    }
+}
+
+
+
+#tajam{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        .row1{
+            .wrapper{
+                width: 33%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                &-img{
+                    width: 150px;
+                    height: 70px;
+                    margin-top: 15%;
+                }
+              
+                &-text{
+                    color: $textcolor;
+                    margin-top:3%;
+                }
+                &-help{
+                    color: $textcolor;
+                    margin-top: 12%;
+                }
+                &-title{
+                    color: $textcolor;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-top: 20%;
+                }
+                &-ruko{
+                    color: $textcolor;
+                    margin-top: 3%;
+                }
+                &-number{
+                    color: $textcolor;
+                    margin-top: 3%;
+
+                }
+                &-stay{
+                    color: $textcolor;
+                    font-size: 17px;
+                    font-weight:bold;
+                    margin-top: 22%;
+                }
+                &-int{
+                    background-color: transparent !important;
+                    color: $textcolor;
+                    margin-top: 3%;
+                    border: 2px solid $textcolor;
+
+                }
+                &-icon{
+                    display: flex;
+                    width: 70%;
+                    justify-content: space-around;
+                }
+            }
+        }
+    }
+
+}
+
+
+
